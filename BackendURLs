@@ -1,0 +1,28 @@
+Validate Username and Password
+http://localhost:8080/employeeRole/role/2370669/789abc123 
+output - EMPLOYEE
+
+http://localhost:8080/employeeRole/role/2347303/123xyz789
+output - MANAGER
+
+Retrieve all employee rewards
+http://localhost:8080/employeeRewards/all
+
+Retrieve employee reward by employee id
+http://localhost:8080/employeeRewards/getByEmployeeId/2370669
+
+Retrieve employee reward by Manager id
+http://localhost:8080/employeeRewards/getByManagerId/1234567
+
+Retrieve all employee role details
+http://localhost:8080/employeeRole/all
+
+Retrieve all points
+http://localhost:8080/points/all
+
+Retrieve criteria questions by reward type
+http://localhost:8080/nominationCriteria/getByRewardType/Innovation_Award
+
+
+
+
